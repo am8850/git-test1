@@ -10,7 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is a test");
+            for (var i = 0; i < 10; i++)
+                Console.WriteLine("This is a test " + i.ToString());
+
+            Console.ReadLine();
         }
     }
 }
