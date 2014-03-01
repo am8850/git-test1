@@ -28,5 +28,16 @@ namespace Domain.Services
         {
             throw new NotImplementedException();
         }
+
+
+        public void Write(string message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Log(string message, int threadid)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
